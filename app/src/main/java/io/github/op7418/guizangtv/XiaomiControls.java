@@ -74,6 +74,7 @@ final class XiaomiControls {
         if (!enabled()) return original;
         switch (pkg) {
             case "com.xiaodianshi.tv.yst": return "哔哩哔哩";
+            case "com.ktcp.video": return "腾讯视频";
             case "com.xiaomi.mitv.smartshare": return "小米投屏";
             case "com.mitv.gallery": return "相册";
             case "com.mitv.tvhome": return "小米原桌面";
